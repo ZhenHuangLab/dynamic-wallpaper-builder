@@ -1,0 +1,19 @@
+[project]
+name = "dynamic-wallpaper-builder"
+version = "0.1.0"
+description = "Create macOS dynamic wallpapers (HEIC) from image sequences and time schedules."
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=10.0.0",
+    "pillow-heif>=1.1.0",
+]
+
+[project.scripts]
+dynamic-wallpaper = "dynamic_wallpaper.cli:main"
+
+[project.optional-dependencies]
+dev = ["black", "ruff"]
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"

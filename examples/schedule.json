@@ -1,0 +1,8 @@
+{
+  "frames": [
+    {"file": "sunrise.png", "time": "05:30", "appearance": "light"},
+    {"file": "midday.png", "time": "12:00"},
+    {"file": "sunset.png", "time": "18:30"},
+    {"file": "night.png", "time": "23:00", "appearance": "dark"}
+  ]
+}
